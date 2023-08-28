@@ -24,13 +24,13 @@ def read_requirements(filename):
 
 
 # Package meta-data.
-NAME = 'flurry'
+NAME = 'flurry-ce'
 DESCRIPTION = ''
 URL = 'https://github.com/onefeng/flurry'
 EMAIL = '15198086902@163.com'
 AUTHOR = 'onefeng'
-REQUIRES_PYTHON = '>=3'
-VERSION = '1.0.0'
+REQUIRES_PYTHON = '>=3.7'
+VERSION = '1.0.1'
 
 # What packages are required for this module to be executed?
 REQUIRED = read_requirements('requirements.txt')
